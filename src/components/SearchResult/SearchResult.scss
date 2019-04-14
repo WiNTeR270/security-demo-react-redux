@@ -1,0 +1,9 @@
+@import '../../variables';
+.security-result {
+    // override react-bootstrap margin - refactor this to fix specitivity with the react-bootstrap library
+    margin-bottom: 0 !important;
+    p {
+        margin-bottom: 0; 
+        font-size: $font-size-small;
+    }
+};

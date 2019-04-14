@@ -1,0 +1,13 @@
+@import '../../variables';
+
+.security-search-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    .security-search-bar__input {
+        margin-right: $spacing-large;
+    }
+    .security-search-bar__button {
+
+    }
+}

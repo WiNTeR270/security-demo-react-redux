@@ -1,0 +1,25 @@
+@import './variables';
+
+.security {
+  height: 100vh;
+  background: $color-scheme-1;
+  .security-body {
+    display:flex; 
+    // TODO: Clean up height calculations
+    height: calc(100vh - (165px));
+  }
+  
+  .security-header {
+      display: flex;
+      width: 100%;
+      background: $color-scheme-1;
+      padding: $spacing-small;
+      padding: $spacing-medium;
+  
+      .security-header__logo {
+          margin-right: $spacing-large;
+          width: 64px;
+          height: 64px;
+      }
+  }
+}

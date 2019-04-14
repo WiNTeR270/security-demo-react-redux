@@ -1,0 +1,25 @@
+@import '../../variables';
+
+.progress-overlay {
+   width: 100vw;
+   height: 100vh; 
+   position: fixed;
+   justify-content: center;
+   align-items: center; 
+   display:flex;
+   flex-direction: column;
+   background: rgba( $color-scheme-1, .7 );
+   z-index: 500;
+
+   .progress-overlay__spinner {
+       height: 200px;
+       width: 200px;
+   }
+
+   .progress-overlay__text {
+       display: flex;
+       font-size: $font-size-large;
+       color: #fff;
+       justify-content: center;
+   }
+};

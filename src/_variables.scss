@@ -1,0 +1,24 @@
+/** Spacing Variables **/
+$spacing-small: 5px;
+$spacing-medium: calc(#{$spacing-small} * 2);
+$spacing-large: calc(#{$spacing-small} * 3);
+$spacing-xlarge: calc(#{$spacing-small} * 4);
+
+/** Font size Variables **/
+$font-size-xsmall: 10px;
+$font-size-small: 12px;
+$font-size-medium: 14px;  
+$font-size-large: 24px;
+
+/** Font colors. */
+$font-color-light: rgb(194, 194, 194);
+
+/** Color Schemes **/
+$color-scheme-1: #282828;
+$color-scheme-2: #3500D3;
+$color-scheme-3: #240090;
+$color-scheme-4: #190061;
+$color-scheme-5: #0C0032;
+
+$color-malicious: #d64848;
+$color-safe: #4bea72;
