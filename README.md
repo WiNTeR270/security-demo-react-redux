@@ -4,7 +4,6 @@
 
 This project is a demonstration of a lightweight React/Redux application is intended to connect to a .NET Core API that searches for malicious IP addresses.
 
-
 # How to Run
 
   - Download and run the .NET Core API found here:
@@ -12,3 +11,7 @@ This project is a demonstration of a lightweight React/Redux application is inte
   - Run the .NET Core API application and determine the *localhost:port* in use
   - Update src/actions/index.js 
   -- Set the IP_SERVICE_URL variable to reflect the .NET Core API *localhost:port* value
+  - Run the following commands once this git repository is checked out
+  -- npm install
+  -- npm start
+  - Open up a web browser under *localhost:3000*
