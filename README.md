@@ -50,5 +50,5 @@ This project is a demonstration of a lightweight React/Redux application is inte
             <li>npm start</li>
         </ul>
     </li>
-    <li>Open up a web browser under <strong>localhost:3000</strong></li>
+    <li>Open up a web browser under <strong>localhost:PORT</strong></li>
 </ul>
