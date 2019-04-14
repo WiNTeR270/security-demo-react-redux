@@ -17,9 +17,10 @@ export const updateSearchText = (event) => {
 
 export const runSearch = () => async(dispatch, getState) => {
   const {searchText} = getState();
+  
   dispatch({type: SEARCH_INIT, action: 'text'});
   superagent
-    .get(`http://localhost:53195/api/maliciousIp/${searchText}`)
+    .get(`${IP_SERVICE_URL}/api/maliciousIp/${searchText}`)
     .withCredentials()
     .set('Accept', 'application/json')
     .then(res => {
