@@ -58,3 +58,10 @@ This project is a demonstration of a lightweight React/Redux application is inte
     </li>
     <li>Open up a web browser under <strong>localhost:PORT</strong></li>
 </ul>
+
+# Screenshots
+
+![alt text](https://github.com/WiNTeR270/security-demo-react-redux/blob/master/screenshots/app-1.png)
+![alt text](https://github.com/WiNTeR270/security-demo-react-redux/blob/master/screenshots/app-2.png)
+![alt text](https://github.com/WiNTeR270/security-demo-react-redux/blob/master/screenshots/app-3.png)
+![alt text](https://github.com/WiNTeR270/security-demo-react-redux/blob/master/screenshots/app-4.png)
