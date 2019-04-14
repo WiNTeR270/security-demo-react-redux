@@ -4,6 +4,12 @@
 
 This project is a demonstration of a lightweight React/Redux application is intended to connect to a .NET Core API that searches for malicious IP addresses.
 
+# Associated Projects
+<ul>
+    <li>API Service: https://github.com/WiNTeR270/security-demo-.net-core-api</li>
+    <li>Web Application: https://github.com/WiNTeR270/security-demo-react-redux </li>
+</ul>
+
 # Goals of Projects
 <ol>
     <li><strong>Create a Simple React/Redux Application</strong>
@@ -50,5 +56,5 @@ This project is a demonstration of a lightweight React/Redux application is inte
             <li>npm start</li>
         </ul>
     </li>
-    <li>Open up a web browser under <strong>localhost:3000</strong></li>
+    <li>Open up a web browser under <strong>localhost:PORT</strong></li>
 </ul>
