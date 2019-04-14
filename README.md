@@ -1,6 +1,6 @@
 # React/Redux Malicious IP Search
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+[![Build Status](https://travis-ci.com/WiNTeR270/security-demo-react-redux.svg?branch=master)](https://travis-ci.com/WiNTeR270/security-demo-react-redux)
 
 This project is a demonstration of a lightweight React/Redux application is intended to connect to a .NET Core API that searches for malicious IP addresses.
 
