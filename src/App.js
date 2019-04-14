@@ -22,7 +22,6 @@ class App extends Component {
           <img className="security-header__logo" src={logo}/>
           <Search {...this.props}/>
         </div>
-       
             <SearchResult {...this.props}/>
             <div className="security-body">
                 <Table {...this.props}/>
