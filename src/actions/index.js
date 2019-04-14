@@ -5,7 +5,7 @@ export const SEARCH_SUCCESS = 'SEARCH_SUCCESS';
 export const SEARCH_FAIL = 'SEARCH_FAIL';
 
 //  TODO: This should ideally come from a config.json file
-const IP_SERVICE_URL = 'http://localhost:53195';
+const IP_SERVICE_URL = 'http://localhost:5000';
 
 export const updateSearchText = (event) => {
   console.log('updating search text!', event.target.value);

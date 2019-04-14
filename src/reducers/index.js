@@ -3,7 +3,7 @@ import { SEARCH_UPDATE_TEXT, SEARCH_INIT, SEARCH_SUCCESS, SEARCH_FAIL } from './
 
 let initialState = { 
   // searchText: "172.245.173.13",
-  searchText: null,
+  searchText: '',
   isSearching: false,
   searchResult: null,
   // searchResult: {
