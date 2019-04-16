@@ -30,6 +30,15 @@ This project is a demonstration of a lightweight React/Redux application is inte
         <li>Demonstrate various React components</li>
     </ul>
     </li>
+    <li><strong>Create a Simple Java Spring API Service Layer</strong>
+    <ul>
+        <li>Start with an empty Java Springboot project</li>
+        <li>Provide an API for determing if an IP is in a known list (malicious) and retrieve Geo data for IP address</li>
+        <li>Integrate Service layer with another external API (ipinfo.io) and converting JSON results</li>
+        <li>Integrate Service layer with parsing data from an external URL (binarydefense) and converting raw text results</li>
+        <li>Simple unit test exercising API Controller that avoids having to run the full application to test against</li>
+        </ul>
+    </li>
     <li><strong>Create a Simple .NET Core API Service Layer</strong>
     <ul>
         <li>Start with an empty .NET Core project</li>
