@@ -67,7 +67,6 @@ class Map extends Component {
     let center = this.olmap.getView().getCenter();
     let zoom = this.olmap.getView().getZoom();
 
-    console.log('shoudl component update?');
     //  if the search result is first received, update the map
     if(!this.props.searchResult && nextProps.searchResult) {
       return true;
@@ -83,7 +82,6 @@ class Map extends Component {
   }
 
   render() {
-    console.log('map render update');
     this.updateMap(); 
     return (
       <div id="map" className="security-map"/>

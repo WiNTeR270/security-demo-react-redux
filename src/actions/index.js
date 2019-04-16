@@ -5,10 +5,9 @@ export const SEARCH_SUCCESS = 'SEARCH_SUCCESS';
 export const SEARCH_FAIL = 'SEARCH_FAIL';
 
 //  TODO: This should ideally come from a config.json file
-const IP_SERVICE_URL = 'http://localhost:5000';
+const IP_SERVICE_URL = 'http://localhost:8080';
 
 export const updateSearchText = (event) => {
-  console.log('updating search text!', event.target.value);
   return {
     type: SEARCH_UPDATE_TEXT,
     payload: event.target.value
@@ -20,8 +19,7 @@ export const runSearch = () => async(dispatch, getState) => {
   
   dispatch({type: SEARCH_INIT, action: 'text'});
   superagent
-    .get(`${IP_SERVICE_URL}/api/maliciousIp/${searchText}`)
-    .withCredentials()
+    .get(`${IP_SERVICE_URL}/api/ipAddress/${searchText}`)
     .set('Accept', 'application/json')
     .then(res => {
       console.log('API response', res.body);
@@ -30,8 +28,4 @@ export const runSearch = () => async(dispatch, getState) => {
       console.error("Ran into a API query error", err); 
       dispatch({type: SEARCH_FAIL, payload: err});
     });
-}
-
-export const runRandomSearch = () => async(dispatch, getState) => {
-  console.log('implement me')
 }
