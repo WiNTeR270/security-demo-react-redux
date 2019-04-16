@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/WiNTeR270/security-demo-react-redux.svg?branch=master)](https://travis-ci.com/WiNTeR270/security-demo-react-redux)
 
-This project is a demonstration of a lightweight React/Redux application is intended to connect to a .NET Core API that searches for malicious IP addresses.
+This project is a demonstration of a lightweight React/Redux application is intended to connect to a .NET Core API or Java Spring API that searches for malicious IP addresses.
 
 # Associated Projects
 <ul>
