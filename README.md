@@ -54,11 +54,7 @@ This project is a demonstration of a lightweight React/Redux application is inte
 # How to Run
 
 <ul>
-    <li>Download and run the .NET Core API found here:
-    <ul>
-        <li>https://github.com/WiNTeR270/security-demo-.net-core-api</li>
-    </ul>
-    </li>
+    <li>Download either the Java Spring or .NET Core API project listed above:</li>
     <li>Run the either the Java Spring or .NET Core API application and determine the <strong>localhost:port</strong> in use for the API
         <ul>
             <li>Update src/actions/index.js</li>
