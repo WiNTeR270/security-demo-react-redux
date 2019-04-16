@@ -54,7 +54,7 @@ This project is a demonstration of a lightweight React/Redux application is inte
 # How to Run
 
 <ul>
-    <li>Download either the Java Spring or .NET Core API project listed above in the Associated Projexts</li>
+    <li>Download either the Java Spring or .NET Core API project listed above in the Associated Projects</li>
     <li>Run the either the Java Spring or .NET Core API application and determine the <strong>localhost:port</strong> in use for the API
         <ul>
             <li>Update src/actions/index.js</li>
