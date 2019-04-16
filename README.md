@@ -6,7 +6,13 @@ This project is a demonstration of a lightweight React/Redux application is inte
 
 # Associated Projects
 <ul>
-    <li>API Service: https://github.com/WiNTeR270/security-demo-.net-core-api</li>
+    <li>
+        Available API Services:
+        <ul>
+            <li>Java Spring: https://github.com/WiNTeR270/security-demo-java-api</li>
+            <li>C# .NET Core: https://github.com/WiNTeR270/security-demo-.net-core-api</li>
+        </ul>
+    </li>
     <li>Web Application: https://github.com/WiNTeR270/security-demo-react-redux </li>
 </ul>
 
