@@ -59,12 +59,12 @@ This project is a demonstration of a lightweight React/Redux application is inte
         <li>https://github.com/WiNTeR270/security-demo-.net-core-api</li>
     </ul>
     </li>
-    <li>Run the .NET Core API application and determine the <strong>localhost:port</strong> in use for the API
+    <li>Run the either the Java Spring or .NET Core API application and determine the <strong>localhost:port</strong> in use for the API
         <ul>
             <li>Update src/actions/index.js</li>
         </ul>
     </li>
-    <li>Set the IP_SERVICE_URL variable to reflect the .NET Core API <strong>localhost:port</strong> value</li>
+    <li>Set the IP_SERVICE_URL variable to reflect the API service <strong>localhost:port</strong> value</li>
     <li>Run the following commands once this git repository is checked out
         <ul>
             <li>npm install</li>
